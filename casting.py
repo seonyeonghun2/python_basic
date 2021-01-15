@@ -14,3 +14,16 @@ else:
     print('b is None data')
 
 print(b is None)
+
+# .format() 함수 사용하기
+
+c = 12
+print('{:b}'.format(c))
+print('{:#b}'.format(c))
+print('{:o}'.format(c))
+print('{:#o}'.format(c))
+print('{:x}'.format(c))
+print('{:#x}'.format(c))
+
+print(f'{c:#b}')
+print('')
