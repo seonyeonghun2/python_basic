@@ -9,4 +9,27 @@
 # print(result)
 # print('-'*100)
 
-# bin() 함수를 사용하면 됨
+# bin(), oct(), hex() 함수의 사용
+# 10진수 -> 2진수, 8진수, 16진수 변환
+
+su = 32
+su_binary = bin(su)
+print('32를 2진수 변환 :', su_binary, type(su_binary))
+# 0b 기호는 2진수를 나타내는 문자열
+
+su_octat = oct(su)
+print('32를 8진수 변환 :', su_octat, type(su_octat))
+# 0o 기호는 8진수를 나타내는 문자열
+
+su_hexa = hex(su)
+print('32를 16진수 변환 :', su_hexa, type(su_hexa))
+# 0x 기호는 16진수를 나타내는 문자열
+
+# 2진수, 8진수, 16진수 -> 10진수 변환
+before_binary = 0b1101
+before_octat = 0o50
+before_hexa = 0x78
+
+print('2진수 -> 10진수 변환 : ', before_binary)
+print('8진수 -> 10진수 변환 : ', before_octat)
+print('16진수 -> 10진수 변환 : ', before_hexa)
