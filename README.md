@@ -1,7 +1,7 @@
 # python_basic
 ## 202호 AI과정 python
 ### 과정관련 문서(doc)
-1. [파이썬 소개](https://www.notion.so/12782f1c0103498ebbc4798c3e55f060)
+1. [파이썬 소개](https://www.notion.so/12782f1c0103498ebbc4798c3e55f060){: target="_blank"}
 2. 입력과 출력
 3. 변수의 선언
 4. 형변환
